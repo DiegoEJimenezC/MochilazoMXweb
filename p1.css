@@ -1,0 +1,60 @@
+body {  /* Principal styles */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  h1,
+  h2,
+  h3 {
+    line-height: 1.2;
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 2rem;
+  }  
+  h2 {
+    font-size: 1.5rem;
+  }  
+  h3 {
+    font-size: 1.2rem;
+  }  
+  .package-info,
+  .accommodation-info {
+    margin-bottom: 2rem;
+  } 
+  .accommodation-info p:first-child {
+    font-weight: bold;
+  }
+  .description p {
+    text-align: justify;
+  }
+
+  header,
+  footer {  /* styles barra de navegacion*/
+    color: white;
+    text-align: center;
+    background-color: #007bff;
+    padding: 16px;
+  }
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }  
+  header nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px;
+  }  
+  header nav ul li a:hover {
+    background-color: #fff;
+    color: #007bff;
+  }
+  
+   /* Personalizar pie de pag */
+  footer p {
+    font-size: 0.8rem;
+  }

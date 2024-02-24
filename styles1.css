@@ -1,0 +1,96 @@
+/* styles barra de navegacion*/
+   header {
+    background-color: #007bff;
+    padding: 16px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+header nav ul li a:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+
+/* Principal styles */  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+   }
+   h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+   }
+   form {
+    display: grid;
+    justify-content: center;
+    align-items: normal;
+    margin: 20px;
+    flex-direction: column;
+   }
+   .search-box {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    width: auto;
+    padding: 10px;
+    align-items: center;
+   }
+   label {
+    display: grid;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+    flex-direction: column;
+   }
+   input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   }
+   input[disabled] {
+    background-color: #f4f4f4;
+    color: #999;
+    cursor: not-allowed;
+   }
+   select {
+    display: grid;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 18px;
+   }
+
+   /* Personalizar pie de pag */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }

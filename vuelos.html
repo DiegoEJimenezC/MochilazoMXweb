@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title>VuelosMochilazoMX</title><!-- Verificar link CSS del archivo-->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="css/styles1.css">
+ <header><!-- Esto es la barra de navegacion-->
+    <nav>
+        <ul><!-- Verificar links HTML -->
+            <li><a href="MochilasoMX.html">INICIO</a></li>
+            <li><a href="paquetes.html">Paquetes</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+        </ul>
+    </nav>
+</header> 
+</head>
+<body>
+ <h1>Busqueda de Vuelos</h1>
+ <form action="#"><!-- Aqui va el php-->
+ <div class="search-box"><!-- opcion a comprar-->
+ <label for="tipov">VUELOS:</label>
+ <select id="tipov">
+    <option value="redondo">Redondo</option>
+    <option value="sencillo">Sencillo</option>
+ </select>
+ </div>
+ <div class="search-box"><!-- Destino del vuelo-->
+ <label for="destinov">DESTINO:</label>
+ <select id="destinov" ><!-- Destinos-->
+    <option value="cancun">Cancún</option>
+    <option value="puerto">Puerto Vallarta</option>
+    <option value="cabos">Los Cabos</option>
+</select>      
+ </div>
+<div class="search-box"><!-- Origen del vuelo-->
+ <label for="origenv">ORIGEN:</label>
+ <input type="text" id="origenv" value="Aeropuerto Internacional Felipe Ángeles (AIFA), Ciudad de México, México" disabled>
+</div> 
+<!-- Fecha del vuelo-->
+<div class="search-box">
+    <label for="fechav">FECHA:</label>
+    <select id="fechav" >
+       <option value="ene">Enero</option>
+       <option value="feb">Febrero</option>
+       <option value="mar">Marzo</option>
+       <option value="abr">Abril</option>
+       <option value="may">Mayo</option>
+       <option value="jun">Junio</option>
+       <option value="jul">Julio</option>
+       <option value="ago">Agosto</option>
+       <option value="sep">Septiembre</option>
+       <option value="oct">Octubre</option>
+       <option value="nov">Noviembre</option>
+       <option value="dic">Diciembre</option>
+</select>      
+</div>
+<div class="search-box"><!-- Dia del vuelo-->
+    <label for="diav">DIA:</label>
+    <input type="text" id="diav" placeholder="Dia de tu vuelo" >
+</div>
+ <button type="submit" id="buscar">Buscar</button>
+ </form>
+ <footer>
+    <p>©2024 Paquetes de Viaje MochilazoMX</p>
+  </footer>
+</body>
+</html>

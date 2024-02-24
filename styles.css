@@ -1,0 +1,107 @@
+body {/* Principal styles */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+h1, h2 {
+    font-weight: normal;
+    margin: 0 0 16px;
+}
+p {
+    margin: 0 0 16px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* styles de viajes */
+#main-banner {
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#main-banner h1 {
+    font-size: 48px;
+    color: #010000;
+    margin-bottom: 5px;
+}
+
+
+/* Ofertas adicionales styles */
+#additional-offers {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#additional-offers .offer {
+    flex-basis: auto;
+    margin: 0 10px 16px;
+    background-color: #f2f2f2;
+    padding: 16px;
+    text-align: center;
+}
+
+#additional-offers .offer h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+/* Descuento styles */
+#discount-info {
+    background-color: #f2f2f2;
+    padding: 16px;
+    margin: 32px 0;
+    text-align: center;
+}
+
+#discount-info h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+/* styles barra de navegacion*/
+header {
+    background-color: #007bff;
+    padding: 16px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+header nav ul li a:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+/* Personalizar pie de pag */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }
